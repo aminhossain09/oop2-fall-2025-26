@@ -1,7 +1,7 @@
 ﻿int a = 5;
 int b = 4;
-int c = a;
+int x = a;
 a = b;
-b = c;
+b = x;
 
 Console.WriteLine($" new values are a:{a} , b:{b}");
