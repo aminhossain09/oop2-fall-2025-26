@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Hp\\Downloads\\Developer\\oop2-fall-2025-26\\Project\\Calculator 1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5E87BE10-CE17-4BE0-9F0F-088A58BC14B9}|Calculator 1\\Calculator 1.csproj|c:\\users\\hp\\downloads\\developer\\oop2-fall-2025-26\\project\\calculator 1\\calculator 1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E87BE10-CE17-4BE0-9F0F-088A58BC14B9}|Calculator 1\\Calculator 1.csproj|solutionrelative:calculator 1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Downloads\\Developer\\oop2-fall-2025-26\\Project\\Calculator 1\\Calculator 1\\Program.cs",
+              "RelativeDocumentMoniker": "Calculator 1\\Program.cs",
+              "ToolTip": "C:\\Users\\Hp\\Downloads\\Developer\\oop2-fall-2025-26\\Project\\Calculator 1\\Calculator 1\\Program.cs",
+              "RelativeToolTip": "Calculator 1\\Program.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T06:02:48.615Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
