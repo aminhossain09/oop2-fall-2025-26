@@ -1,42 +1,53 @@
 ﻿using System;
-public class House;
-{
-public int Year { get; set; }
-public double Size { get; set; }
 
-public  House (int Year, double Size)
+class House
 {
-         Year = year;
-         Size = size;
+    public int BuildYear { get; set; }
+    public double Size { get; set; }
+
+    public House(int buildYear, double size)
+    {
+        BuildYear = buildYear;
+        Size = size;
+    }
+
+    public int HowOld()
+    {
+        int currentYear = DateTime.Now.Year;
+        int age = currentYear - BuildYear;
+        return age;
+    }
+
+    public void CanBeSold()
+    {
+        int age = HowOld();
+        if (age >= 15)
+        {
+            Console.WriteLine(" The house is old enough to be sold.");
+        }
+        else
+        {
+            Console.WriteLine(" The house cannot be sold .");
+
+        }
+    }
 }
-private int HowOld()
-{
-      int thisYear = Date.Time.Now.Year;
-}
-
-public bool CanBeSold()
-{
-    return HowOld() > 15;
-}
-     
-
-public void ShowInfo()
-{
-    Console.WriteLine(" House Details");
-    Console.WriteLine("Built Year = {Year}");
-    Console.WriteLine("House Size = {Year}");
-}
-
-
-
 
 class Program
 {
     static void Main(string[] args)
     {
-        House House1 = new House(2000,1500.0);
-        House House2 = new House(2011, 1000.0);
-        House1.ShowInfo();
-        House2.ShowInfo();
+        Console.WriteLine("=== House Information ===");
+
+        Console.Write("Enter the build year of the house: ");
+        int buildYear = Convert.ToInt32(Console.ReadLine());
+
+        Console.Write("Enter the size of the house :");
+        double size = Convert.ToDouble(Console.ReadLine());
+
+        House myHouse = new House(buildYear, size);
+
+        Console.WriteLine($"\n The house is about  {myHouse.HowOld()} years old.");
+        myHouse.CanBeSold();
     }
 }
