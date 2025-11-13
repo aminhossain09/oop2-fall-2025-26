@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mortgage Calculator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+894e01c12f3140852d86d185c974ea846792f4f7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+39d9a3a06c688236be3616c0d14729f2cfc020cb")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mortgage Calculator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mortgage Calculator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
